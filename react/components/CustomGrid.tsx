@@ -17,11 +17,11 @@ type Props = {
 
 const CustomGrid = ({gridType = 1, children }: Props) => {
   console.log("Grid Type:", gridType )
+  
   const gridTypeClass:string = `grid__${gridType}`
 
   return(
-    <div className={styles[gridTypeClass]}>
-      {/* <div>Aquí irá mi grilla customizada {gridType}</div> */}
+    <div className={styles[gridTypeClass]} >
       <CustomGridItemBig 
         element = {children[0]}
       />

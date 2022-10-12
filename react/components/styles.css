@@ -4,6 +4,9 @@
 .grid__4{
    display: flex;
    flex-wrap: wrap;
+   margin: 20px 0 20px 0;
+   padding: 10px 70px 10px 70px;
+   background-color: rgb(0 70 145 / 26%);
 }
 .grid__2 > div:nth-child(1) {
     order: 2
@@ -31,16 +34,12 @@
 }
 .grid__4 > div:nth-child(3) {
     order: 1
-}
+}  
 .grid__itemBig{
     margin: 10px;
-    width: calc (50% -20px);
-    height: 500px;
-    background-color: deeppink;
+    width: calc(50% - 20px);
 }
 .grid__itemSmall{
     margin: 10px;
-    width: calc (25% -20px);
-    height: 500px;
-    background-color: #ff8fcb;
-}
+    width: calc(25% - 20px);
+}  

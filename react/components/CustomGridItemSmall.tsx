@@ -2,12 +2,12 @@ import React, { ReactNode } from 'react'
 import styles from './styles.css'
 
 type Props = {
-    elementOne: ReactNode
+    elementOne: ReactNode,
     elementTwo: ReactNode
 }
 
 const  CustomGridItemSmall = ({elementOne, elementTwo}: Props) => {
-    return <div className={styles.grid__itemSmall}>
+    return <div  className={styles["grid__itemSmall"]} >
         {elementOne}
         {elementTwo}
     </div>
